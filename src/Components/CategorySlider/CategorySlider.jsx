@@ -1,8 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
-import styles from './CategorySlider.module.css'
-import axios from 'axios';
+
 import { Link, useNavigate, useParams } from 'react-router-dom';
-import Slider from 'react-slick';
 import Loader from '../Loader/Loader.jsx';
 import { productsContext } from '../../Context/ProductsContext.js';
 
@@ -89,14 +87,7 @@ export default function CategorySlider() {
     }
 
     return <>
-            {/* <div className='container'>
-                <div className='row'>
-                {categories?.map((category) => <Link className='col-md-5 product pb-2 position-relative' key={category._id} to={`categories/${category._id}`} className='category-slider'>
-                <img className='w-75' src={category.image} alt="" />
-                <h2 className='h6 pt-2 text-center'>{category.name}</h2>
-            </Link>)}
-                </div>
-            </div> */}
+          
             <div className='container'>
         <div className='row py-5 g-3'>
        

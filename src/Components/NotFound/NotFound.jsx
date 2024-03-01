@@ -1,5 +1,4 @@
 import React from 'react'
-import styles from './NotFound.module.css'
 import { Helmet } from 'react-helmet'
 import notFoundImg from '../../assets/error.svg'
 

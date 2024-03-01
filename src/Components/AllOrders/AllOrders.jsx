@@ -1,11 +1,8 @@
 import React, { useContext, useEffect, useState } from 'react'
-import styles from './AllOrders.module.css'
 import { Link, useNavigate } from 'react-router-dom';
 import { cartContext } from '../../Context/CartContext.js';
-import toast from 'react-hot-toast';
-import jwtDecode from 'jwt-decode';
+import { jwtDecode } from 'jwt-decode';
 import Loader from '../Loader/Loader.jsx';
-import { authenticationContext } from '../../Context/AuthenticationContext.js';
 import { Helmet } from 'react-helmet';
 import noOrders from '../../assets/Empty-Orders.svg'
 
@@ -15,7 +12,7 @@ export default function AllOrders() {
 
     const [isLoading, setIsLoading] = useState(false);
     const [ordersList, setOrdersList] = useState(null);
-    const [cartIsLoading, setCartIsLoading] = useState(false);
+    
 
     let { getLoggedUserCart,
         setNumOfCartItems,

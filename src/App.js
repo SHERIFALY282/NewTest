@@ -1,6 +1,7 @@
 
 import './App.css';
-import jwtDecode from 'jwt-decode';
+import { jwtDecode } from 'jwt-decode';
+
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { useState } from 'react';
 import { Offline } from 'react-detect-offline';

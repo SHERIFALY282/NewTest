@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import styles from './ForgetPassword.module.css'
 import * as Yup from 'yup'
 import { useFormik } from 'formik'
 import { Helmet } from 'react-helmet';

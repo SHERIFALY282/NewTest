@@ -1,5 +1,4 @@
 import React, { useContext, useEffect, useState } from 'react'
-import styles from './Layout.module.css'
 import Navbar from '../Navbar/Navbar.jsx'
 import Footer from './../Footer/Footer';
 import { Outlet, useNavigate } from 'react-router-dom';

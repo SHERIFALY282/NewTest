@@ -1,5 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react'
-import styles from './WishList.module.css'
+import React, { useContext, useState } from 'react'
 import { cartContext } from '../../Context/CartContext.js'
 import toast from 'react-hot-toast';
 import { Link, useNavigate } from 'react-router-dom';

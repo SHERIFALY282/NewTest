@@ -1,5 +1,4 @@
     import React, { useContext, useEffect, useState } from 'react'
-    import styles from './ProductCard.module.css'
     import { Link, useNavigate } from 'react-router-dom'
     import { cartContext } from '../../Context/CartContext.js';
     import toast from 'react-hot-toast';

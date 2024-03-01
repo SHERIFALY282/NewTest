@@ -1,6 +1,4 @@
 import React, { useContext, useEffect, useState } from 'react'
-import styles from './FeaturedProducts.module.css'
-import axios from 'axios';
 import Loader from '../Loader/Loader.jsx';
 import ProductCard from '../ProductCard/ProductCard.jsx';
 import { productsContext } from '../../Context/ProductsContext.js';

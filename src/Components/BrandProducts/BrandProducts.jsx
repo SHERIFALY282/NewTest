@@ -1,5 +1,4 @@
 import React, { useContext, useEffect, useState } from 'react'
-import styles from './BrandProducts.module.css'
 import { productsContext } from '../../Context/ProductsContext.js';
 import Loader from '../Loader/Loader.jsx';
 import ProductCard from '../ProductCard/ProductCard.jsx';

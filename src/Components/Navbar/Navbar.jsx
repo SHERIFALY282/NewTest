@@ -1,5 +1,4 @@
 import React, { useContext } from 'react'
-import styles from './Navbar.module.css'
 import logo from '../../assets/freshcart-logo.svg'
 import { Link } from 'react-router-dom'
 import { cartContext } from '../../Context/CartContext.js'

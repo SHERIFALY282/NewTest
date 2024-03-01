@@ -1,10 +1,9 @@
 import React, { useContext, useEffect, useState } from 'react'
-import styles from './Brands.module.css'
 import { Helmet } from 'react-helmet'
 import { productsContext } from '../../Context/ProductsContext.js';
 import { useParams } from 'react-router-dom';
 import Loader from '../Loader/Loader.jsx';
-import BrandProducts from '../BrandProducts/BrandProducts.jsx';
+
 
 export default function Brands() {
     let { getBrandDeatails } = useContext(productsContext);

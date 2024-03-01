@@ -1,5 +1,4 @@
 import React from 'react'
-import styles from './Footer.module.css'
 import amazonPay from '../../assets/images/Amazon_Pay_logo.png'
 import masterCard from '../../assets/images/MasterCard-Logo.png'
 import payPal from '../../assets/images/PayPal.png'

@@ -1,5 +1,4 @@
 import React, { useContext, useState } from 'react'
-import styles from './ResetPassword.module.css'
 import * as Yup from 'yup'
 import { Helmet } from 'react-helmet'
 import toast from 'react-hot-toast';

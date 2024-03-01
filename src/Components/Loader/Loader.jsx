@@ -1,5 +1,4 @@
 import React from 'react'
-import styles from './Loader.module.css'
 import { ThreeCircles } from 'react-loader-spinner'
 
 export default function Loader() {

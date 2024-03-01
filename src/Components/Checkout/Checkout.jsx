@@ -1,5 +1,4 @@
 import React, { useContext, useState } from 'react'
-import styles from './Checkout.module.css'
 import { useFormik } from 'formik'
 import { cartContext } from '../../Context/CartContext.js';
 import * as Yup from 'yup'

@@ -1,10 +1,9 @@
 import React, { useContext, useEffect, useState } from 'react'
-import styles from './Categories.module.css'
 import { Helmet } from 'react-helmet'
 import { useParams } from 'react-router-dom'
 import { productsContext } from '../../Context/ProductsContext.js'
 import Loader from '../Loader/Loader.jsx'
-import CategoryProducts from '../CategoryProducts/CategoryProducts.jsx'
+
 
 
 export default function Categories() {

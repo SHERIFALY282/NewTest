@@ -1,7 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react'
-import styles from './BrandSlider.module.css'
 import Loader from '../Loader/Loader.jsx';
-import Slider from 'react-slick';
 import { Link, useNavigate } from 'react-router-dom';
 import { productsContext } from '../../Context/ProductsContext.js';
 

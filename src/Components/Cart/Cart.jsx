@@ -1,11 +1,9 @@
 import React, { useContext, useEffect, useState } from 'react'
-import styles from './Cart.module.css'
+
 import { cartContext } from '../../Context/CartContext.js'
 import toast from 'react-hot-toast';
 import { Link, useNavigate } from 'react-router-dom';
-import { Helmet } from 'react-helmet';
-import Loader from '../Loader/Loader.jsx';
-import emptyCart from '../../assets/Empty-cart.svg'
+
 export default function Cart() {
 
     let { getLoggedUserCart, removeItemFromCart, updateProductCount, setNumOfCartItems, removeCart } = useContext(cartContext);

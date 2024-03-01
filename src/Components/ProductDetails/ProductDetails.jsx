@@ -1,5 +1,4 @@
 import React, { useContext, useEffect, useState } from 'react'
-import styles from './ProductDetails.module.css'
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import Slider from 'react-slick';
 import { cartContext } from '../../Context/CartContext.js';

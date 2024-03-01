@@ -1,16 +1,13 @@
 import React, { useContext, useEffect, useState } from 'react'
-import styles from './CategoryProducts.module.css'
 import { productsContext } from '../../Context/ProductsContext.js';
 import Loader from '../Loader/Loader.jsx';
-import ProductCard from '../ProductCard/ProductCard.jsx';
 import { useNavigate } from 'react-router-dom';
-import ResponsivePagination from 'react-responsive-pagination';
+
 
 export default function CategoryProducts({ categoryId }) {
 
     let { getProductsInCustemList } = useContext(productsContext);
     const [products, setProducts] = useState(null);
-    const [showSubcategory, setShowSubcategory] = useState(true);
     const [isLoading, setIsLoading] = useState(false);
     const [currentPage, setCurrentPage] = useState(1);
     const [totalPages, setTotalPages] = useState(1);

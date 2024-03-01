@@ -1,5 +1,4 @@
 import React, { useContext, useEffect, useState } from 'react'
-import styles from './Products.module.css'
 import { Helmet } from 'react-helmet'
 import Loader from '../Loader/Loader.jsx';
 import ProductCard from '../ProductCard/ProductCard.jsx';
